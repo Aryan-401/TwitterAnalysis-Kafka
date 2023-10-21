@@ -1,0 +1,23 @@
+name: data_env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - scikit-learn
+  - scipy
+  - sqlalchemy
+  - pyspark
+  - requests
+  - beautifulsoup4
+  - pytorch
+  - torchvision
+  - networkx
+  - pytest
+  - pylint
+  - black
+  - flake8
+  - pylint

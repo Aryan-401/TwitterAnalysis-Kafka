@@ -1,0 +1,33 @@
+# Ignore compiled files
+*.class
+*.jar
+
+# Ignore target directory
+/target/
+
+# Ignore IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore Kafka data and logs
+data/
+*.kafka-log/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files that may contain sensitive information
+config/application.properties
+config/*.yaml
+
+
+kafka_2.12-3.6.0
+.env
+kafka_2.12-3.6.0.tgz
